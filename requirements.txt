@@ -1,0 +1,29 @@
+
+# ==========================================
+# Local English Speech-to-Text
+# ==========================================
+
+# Core ML framework
+transformers==4.46.3
+tokenizers==0.20.3
+safetensors>=0.4.5
+
+# Fine-tuning and training
+datasets==3.1.0
+accelerate==1.1.1
+peft==0.13.2
+
+# Audio processing
+librosa==0.10.2.post1
+soundfile==0.12.1
+
+# Data processing
+numpy>=1.26.0,<2.0
+pandas>=2.2.0
+
+# Model evaluation
+evaluate==0.4.3
+jiwer==3.0.5
+
+# Utilities
+tqdm>=4.66.0

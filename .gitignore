@@ -1,0 +1,68 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Hugging Face model cache
+.cache/
+.cache/huggingface/
+huggingface_cache/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.ckpt
+
+# Training outputs
+output/
+outputs/
+checkpoints/
+runs/
+wandb/
+
+# Dataset audio and large datasets
+dataset/audio/*
+!dataset/audio/README.txt
+
+dataset/*.csv
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
